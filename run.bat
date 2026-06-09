@@ -7,5 +7,5 @@ if not exist venv (
 echo Activating virtual environment...
 call venv\Scripts\activate.bat
 echo Starting the Bluff game server...
-python files-mentioned-by-the-user-index\app.py
+python Data\app.py
 pause

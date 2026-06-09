@@ -7,6 +7,6 @@ echo Activating virtual environment...
 call venv\Scripts\activate.bat
 echo Installing requirements...
 set AIOHTTP_NO_EXTENSIONS=1
-pip install -r files-mentioned-by-the-user-index\requirements.txt
+pip install -r Data\requirements.txt
 echo Setup complete!
 pause
